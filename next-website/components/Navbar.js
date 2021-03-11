@@ -6,26 +6,32 @@ const Nav = styled.nav`
     height: 80px;
     background: #000;
     color:#fff;
-`
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+`;
     
+const StyledLink = styled.a`
+    padding: 0rem 2rem;
+    `
 
 const Navbar = () => {
     return (
         <Nav>
             <div>
-                <Link href="/">
-                    <a>NXT</a>
+                <Link href='/' passHref>
+                    <StyledLink>NXT</StyledLink>
                 </Link>
             </div>
             <div>
-            <Link href="/">
-                    <a>Home</a>
+            <Link href='/' passHref>
+                    <StyledLink>Home</StyledLink>
                 </Link>
-                <Link href="/about">
-                    <a>About</a>
+                <Link href='/about' passHref>
+                    <StyledLink>About</StyledLink>
                 </Link> 
-                <Link href="/contact">
-                    <a>Contact</a>
+                <Link href='/contact' passHref>
+                    <StyledLink>Contact</StyledLink>
                 </Link>
             </div>
         </Nav>

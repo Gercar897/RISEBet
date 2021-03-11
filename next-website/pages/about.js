@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Navbar from '../components/Navbar'
 
 
 export default function About() {
@@ -9,7 +8,6 @@ export default function About() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar/>
       <h1>About</h1>
     </>
   )

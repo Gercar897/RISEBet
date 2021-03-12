@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Rise Bet</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>

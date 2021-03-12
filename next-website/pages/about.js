@@ -9,14 +9,22 @@ const Hero = styled.div`
   background: #fff;
 `;
 
+const Heading = styled.h1`
+  color #000;
+  font-size: 10rem;
+  font-weight: 900;
+`;
+
 export default function About() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>About</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <h1>About</h1>
+      <Hero>
+        <Heading>About</Heading>
+      </Hero>
     </>
   )
 }

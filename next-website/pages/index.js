@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const Hero = styled.div`
-  height: 40vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,51 +19,121 @@ const Heading = styled.h1`
 
 
 
+
 export default function Home() {
   return (
     <>
-      <Head>
+<Head>
         <title>Rise Bet</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Riseicon2.ico" />
       </Head>
       <Hero>
         <Heading >RISE</Heading>
       </Hero>
 
 
-
-      <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
-  <div class="flex-shrink-0">
-    <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"
+  <div class="bg-image w-full min-h-full flex flex-wrap justify-center items-center gap-3 py-5 ">
+    <div class="backdrop-blur w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-gray-300 shadow-lg">
     
-    />
-  </div>
-  <div>
-    <div class="text-xl font-medium text-black">ChitChat</div>
-    <p class="text-gray-500">You have a new message!</p>
-  </div>
-</div>
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-semibold text-shadow">Something Good</h3>
+      </div>
+    
+      <div>
+        <img src="https://s3.eu-west-3.amazonaws.com/dexertoes-assets-production-7d0f29e6/uploads/2020/10/02151543/lol-worlds-2020-contara-con-el-mayor-evento-de-clash-hasta-ahora.jpg" alt="image1" class="w-full h-48 object-cover mb-2"/>
+        <p class="mb-3 tracking-wide text-base text-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis.
+        </p>
+        <button class="backdrop bg-button bg-opacity-100 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-50 text-lg">
+          Detail
+        </button>
+      </div>
 
-<div class="py-8 px-8 max-w-sm mx-auto bg-white rounded-xl shadow-md space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-  <img class="block mx-auto h-24 rounded-full sm:mx-0 sm:flex-shrink-0" src="/img/erin-lindford.jpg" alt="Woman's Face"/>
-  <div class="text-center space-y-2 sm:text-left">
-    <div class="space-y-0.5">
-      <p class="text-lg text-black font-semibold">
-        Erin Lindford
-      </p>
-      <p class="text-gray-500 font-medium">
-        Product Engineer
-      </p>
     </div>
-    <button class="px-4 py-1 text-sm text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2">Message</button>
+
+    <div class="backdrop-blur w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-white shadow-lg">
+    
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-semibold text-shadow">Something Good</h3>
+      </div>
+    
+      <div>
+        <img src="https://esportsobserver.com/wp-content/uploads/2019/03/CSGO-ESL-Pro-League.png" alt="image2" class="w-full h-48 object-cover mb-2"/>
+        <p class="mb-3 tracking-wide text-base text-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis.
+        </p>
+        <button class="backdrop bg-button bg-opacity-100 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-50 text-lg">
+          Detail
+        </button>
+      </div>
+    </div>
+
+    <div class="backdrop-blur w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-white shadow-lg">
+  
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-semibold text-shadow">Something Good</h3>
+      </div>
+  
+      <div>
+        <img src="https://www.fifplay.com/img/public/fifa-21-leagues.jpg" alt="image3" class="w-full h-48 object-cover mb-2"/>
+        <p class="mb-3 tracking-wide text-base text-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis.
+        </p>
+
+        <button class="backdrop-blur bg-button bg-opacity-100 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-50 text-lg">
+          Detail
+        </button>
+
+      </div>
+    </div>
+
   </div>
-</div>
+
+
+  <div class="bg-image w-full min-h-full flex flex-wrap justify-center items-center gap-3 py-5 ">
+    <div class="backdrop-blur w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-gray-300 shadow-lg">
+    
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-semibold text-shadow">Something Good</h3>
+      </div>
+    
+      <div>
+        <img src="https://www.palco23.com/files/0002017/000redaccion/eSports/overwatch/overwatch-league-finales-evento-728.jpeg" alt="image1" class="w-full h-48 object-cover mb-2"/>
+        <p class="mb-3 tracking-wide text-base text-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis.
+        </p>
+        <button class="backdrop bg-button bg-opacity-100 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-50 text-lg">
+          Detail
+        </button>
+      </div>
+
+    </div>
+
+    <div class="backdrop-blur w-10/12 md:w-1/4 bg-white bg-opacity-10 rounded p-3 text-white border border-white shadow-lg">
+    
+      <div class="w-full mb-3 pb-3 border-b border-1 border-white">
+        <h3 class="text-xl font-semibold text-shadow">Something Good</h3>
+      </div>
+    
+      <div>
+        <img src="https://addcrazy.com/wp-content/uploads/2018/09/esports-bet-jpg.jpeg" alt="image2" class="w-full h-48 object-cover mb-2"/>
+        <p class="mb-3 tracking-wide text-base text-shadow">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis.
+        </p>
+        <button class="backdrop bg-button bg-opacity-100 border border-white px-3 py-1.5 rounded focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-40 hover:bg-opacity-50 text-lg">
+          Detail
+        </button>
+      </div>
+    </div>
+
+  </div>
+
 
 
 <article>
   <div class="video-wrapper">
-    <h1 class="font-Georgia align-middle leading-none pb-4 text-secondary text-3xl uppercase video-title md:p-1 md:text-7xl ">
-      Game On
+    <h1 class="font-Georgia align-middle leading-none pb-4 text-secondary text-3xl uppercase video-title bg-opacity-0 md:p-1 md:text-9xl md:bg-opacity-0">
+      Ready?
     </h1>
     <video autoPlay loop muted class="w-full" src={require('./OpVid.mp4')} />
   </div>

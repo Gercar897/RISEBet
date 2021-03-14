@@ -1,17 +1,24 @@
 import React from 'react'
 import styled from 'styled-components'
+import Head from 'next/head'
 
 
-export default function Signup() {
+export default function Login() {
     return (
         
+        <>
        
+       <Head>
+        <title>Log in</title>
+        <link rel="icon" href="/Riseicon2.ico" />
+      </Head>
+
         <div class="font-sans">
-            <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 ">
+            <div class="relative min-h-screen flex flex-col sm:justify-center items-center bg-gray-100 backdrop-blur">
                 <div class="relative sm:max-w-sm w-full">
-                    <div class="card bg-blue-400 shadow-lg  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
-                    <div class="card bg-red-400 shadow-lg  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
-                    <div class="relative w-full rounded-5xl  px-6 py-4 bg-gray shadow-md">
+                    <div class="card bg-blue-400  w-full h-full rounded-3xl absolute  transform -rotate-6"></div>
+                    <div class="card bg-red-400  w-full h-full rounded-3xl absolute  transform rotate-6"></div>
+                    <div class="relative w-full rounded-5xl  px-6 py-4 bg-gray">
                         <label for="" class="block text-5x1 text-secondary text-center font-semibold sm:text-6xl">
                             Sign in to your Account
                         </label>
@@ -36,7 +43,7 @@ export default function Signup() {
 
                                 <div class="w-full text-right">     
                                     <a class="underline text-sm text-white hover:text-white" href="#">
-                                        ¿Olvido su contraseña?
+                                        ¿Forgot your password?
                                     </a>                                  
                                </div>
                             </div>
@@ -51,9 +58,9 @@ export default function Signup() {
                 
                             <div class="mt-7">
                                 <div class="flex justify-center items-center">
-                                    <label class="w-full text-sm text-white">¿Eres nuevo?</label>
-                                    <a href="/signup" class="w-full text-white transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:text-black sm:text-lg">
-                                        Crea una cuenta
+                                    <label class="w-full text-sm text-white">¿Have no account?</label>
+                                    <a href="/signup" class="w-full text-white transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:text-third sm:text-lg">
+                                        Sign up here
                                     </a>
                                 </div>
                             </div>
@@ -62,6 +69,6 @@ export default function Signup() {
                 </div>
             </div>
         </div>
-
+        </>
     )
 }

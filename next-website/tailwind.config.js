@@ -18,7 +18,21 @@ module.exports = {
       'data': '#0CAEE8',
       'texty': '#0D80FF',
       'box': '#00FFFF',
-     }
+      'third': '#05F283',
+      'button': '#00b75b',
+      'white': '#FFFFFF',
+      'black': '#000000',
+     },
+     filter: {
+      'none': 'none',
+      'grayscale': 'grayscale(1)',
+      'invert': 'invert(1)',
+      'sepia': 'sepia(1)',
+    },
+    backdropFilter: {
+      'none': 'none',
+      'blur': 'blur(20px)',
+    },
     
   },
   variants: {
@@ -26,5 +40,8 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/forms'),
+    require('tailwindcss-textshadow'),
+    require('tailwindcss-filters'),
+    require('tailwindcss-no-scrollbar'),
   ],
 }

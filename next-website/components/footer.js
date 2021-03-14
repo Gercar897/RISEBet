@@ -13,7 +13,7 @@ const FooterSection = styled.div`
 const Footer = () => {
     return (
         <FooterSection>
-            <p>Pie de pagina</p>
+            <p>Gambling can be addictive, please play responsibly. @2021 RISE</p>
         </FooterSection>
     )
 }

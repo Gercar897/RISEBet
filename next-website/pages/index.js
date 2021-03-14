@@ -3,17 +3,18 @@ import styled from 'styled-components'
 
 
 const Hero = styled.div`
-  height: 90vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
+  
 `;
 
 const Heading = styled.h1`
-  color #000;
+  color #00FFFF;
   font-size: 10rem;
   font-weight: 900;
+  video-title;
 `;
 
 
@@ -26,8 +27,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero>
-        <Heading>NEXT</Heading>
+        <Heading >RISE</Heading>
       </Hero>
+
+
 
       <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-md flex items-center space-x-4">
   <div class="flex-shrink-0">
@@ -59,21 +62,12 @@ export default function Home() {
 
 <article>
   <div class="video-wrapper">
-    <h1 class="leading-none p-4 text-white text-3xl uppercase video-title md:p-8 md:text-5xl">
-      Video Background
+    <h1 class="font-Georgia align-middle leading-none pb-4 text-primary text-3xl uppercase video-title md:p-1 md:text-7xl bg-transparent ">
+      Game On
     </h1>
-    <video autoplay loop muted class="w-full">
-      <source src="https://petermedina.com/video/beach.mp4" type="video/mp4" />Your browser does not support the video tag.
-      <source src="https://petermedina.com/video/beach.webm" type="video/webm" />Your browser does not support the video tag.
-    </video>
-  </div>
-
-  <div class="leading-normal mx-auto my-12 px-4 max-w-md">
-    <p class="mb-4 md:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem error iure quo ea dolore, iste ad assumenda ducimus sunt. Rerum nulla ipsum unde exercitationem ea atque explicabo tempore perferendis delectus?</p>
-    <p class="md:text-xl">Laudantium cumque mollitia maxime, magni pariatur blanditiis laborum quisquam. Iure veniam deserunt debitis minus animi at fugiat doloremque a tempore obcaecati adipisci voluptate molestiae, amet odio, unde velit! Dolore, molestiae.</p>
+    <video autoplay loop muted class="w-full" src={require('./OpVid.mp4')} />
   </div>
 </article>
-
 
 
     </>

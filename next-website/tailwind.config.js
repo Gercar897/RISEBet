@@ -10,6 +10,7 @@ module.exports = {
       'data': '#023E73',
       'texty': '#AEDFF2',
       'white': '#FFFFFF',
+      'black': '#000000',
 
     },
     backgroundColor: {

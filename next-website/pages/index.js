@@ -62,10 +62,10 @@ export default function Home() {
 
 <article>
   <div class="video-wrapper">
-    <h1 class="font-Georgia align-middle leading-none pb-4 text-primary text-3xl uppercase video-title md:p-1 md:text-7xl bg-transparent ">
+    <h1 class="font-Georgia align-middle leading-none pb-4 text-secondary text-3xl uppercase video-title md:p-1 md:text-7xl ">
       Game On
     </h1>
-    <video autoplay loop muted class="w-full" src={require('./OpVid.mp4')} />
+    <video autoPlay loop muted class="w-full" src={require('./OpVid.mp4')} />
   </div>
 </article>
 

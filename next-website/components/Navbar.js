@@ -20,7 +20,7 @@ const Navbar = () => {
         <Nav>
             <div>
                 <Link href='/' passHref>
-                    <StyledLink>NXT</StyledLink>
+                    <StyledLink>RISE Bet</StyledLink>
                 </Link>
             </div>
             <div>
@@ -34,6 +34,18 @@ const Navbar = () => {
                     <StyledLink>Contact</StyledLink>
                 </Link>
             </div>
+
+<div>
+            <button href="/signup" passHref className="bg-blue-500 hover:bg-third hover:bg-opacity-70 text-white font-bold py-2 px-4 rounded">
+            <a href="/signup"> Sign Up </a>
+</button>
+
+<button className="bg-blue hover:bg-secondary hover:bg-opacity-70 text-white font-bold py-2 px-4 rounded">
+<a href="/login"> Log in </a>
+</button>
+
+</div>
+
         </Nav>
     )
 }

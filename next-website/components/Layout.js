@@ -6,7 +6,7 @@ export default function Layout({children}){
     return(
 
       
-       <div style={{ backgroundImage: "url(/MFondo5.jpg)" }}>
+       <div style={{  backgroundImage: "url(/MFondo5.jpg)" }}>
           <Navbar/> 
           {children}
           <Footer/>

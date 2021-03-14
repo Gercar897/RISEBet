@@ -21,7 +21,7 @@ export default function About() {
   return (
     <>
       
-      <div class="py-12 bg-danger bg-opacity-20">
+      <div class="py-12 bg-danger bg-opacity-20 relative min-h-screen flex">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
       <h2 class="text-base text-primary font-semibold tracking-wide uppercase">Bets on another level</h2>

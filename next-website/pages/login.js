@@ -22,7 +22,7 @@ export default function Login() {
                         <label for="" class="block text-5x1 text-secondary text-center font-semibold sm:text-6xl">
                             Sign in to your Account
                         </label>
-                        <form method="#" action="/" class="mt-10">
+                        <form method="#" action="/account" class="mt-10">
                                             
                 
                             <div class="mt-7">                
@@ -50,7 +50,7 @@ export default function Login() {
                 
 
                             <div class="mt-7">
-                                <button class="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:bg-box hover:text-black">
+                                <button href="/account" class="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:bg-box hover:text-black">
                                     Log In
                                 </button>
                             </div>

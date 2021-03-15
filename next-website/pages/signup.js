@@ -22,7 +22,7 @@ export default function Signup() {
                         <label for="" class="block text-5x1 text-secondary text-center font-semibold sm:text-6xl">
                             Create an Account
                         </label>
-                        <form method="#" action="/" class="mt-10">
+                        <form method="#" action="/login" class="mt-10">
                                             
                             <div>
                                 <input type="text" placeholder="Name" class="mt-1 block w-full border-none bg-gray-100 h-11 rounded-xl shadow-lg hover:bg-blue-100 focus:bg-blue-100 focus:ring-0"/>
@@ -43,8 +43,10 @@ export default function Signup() {
                             
                 
                             <div class="mt-7">
-                                <button class="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:bg-box hover:text-black">
-                                    Sign Up
+                                <button  class="bg-blue-500 w-full py-3 rounded-xl text-white shadow-xl hover:shadow-inner focus:outline-none transition duration-500 ease-in-out  transform hover:-translate-x hover:scale-105 hover:bg-box hover:text-black">
+                                   <a href="/account">
+                                       Sign Up
+                                       </a> 
                                 </button>
                             </div>
                           

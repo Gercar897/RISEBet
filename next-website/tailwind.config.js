@@ -11,6 +11,9 @@ module.exports = {
       'texty': '#AEDFF2',
       'white': '#FFFFFF',
       'black': '#000000',
+      'red': '#CD0000',
+      'upcoming': '#FFCC00',
+      'done': '#006400',
 
     },
     backgroundColor: {
@@ -22,6 +25,10 @@ module.exports = {
       'button': '#00b75b',
       'white': '#FFFFFF',
       'black': '#000000',
+      'red': '#CD0000',
+      'upcoming': '#FFCC00',
+      'done': '#006400',
+
      },
      filter: {
       'none': 'none',

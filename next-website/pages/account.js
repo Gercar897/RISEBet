@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styled from 'styled-components'
-
+import YouTubePlayer from 'react-player/lib/players/YouTube'
+import React from 'react';
+import ReactPlayer from "react-player";
 
 const Hero = styled.div`
   height: 30vh;
@@ -56,7 +58,12 @@ export default function terms() {
 </div>
 
 
-
+<div className="App">
+      <h3> <a class='text-white'>Latest news - TEAMFIGHT Breakdown</a></h3>
+      <ReactPlayer class='border border-blue-300 border-8'
+        url="https://www.youtube.com/watch?v=IvhxcdWX34E"
+      />
+    </div>
 
 </div>
       

@@ -3,9 +3,6 @@
 @tailwind utilities;
 @tailwind screens;
 
-.video-title {
-  background: #000;
-}
 
 @media only screen and (min-width : 768px) {
   .video-wrapper {
@@ -24,7 +21,7 @@
   }
 
   .video-title {
-    background-color: rgba(0,0,0, .7);
+    background-color: #00000000;
     position: absolute;
       top: 50%;
       left: 50%;

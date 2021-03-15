@@ -12,7 +12,7 @@ module.exports = {
       'white': '#FFFFFF',
       'black': '#000000',
       'red': '#CD0000',
-      'upcoming': '#FFCC00',
+      'upcoming': '##F5BD1F',
       'done': '#006400',
 
     },
@@ -26,7 +26,7 @@ module.exports = {
       'white': '#FFFFFF',
       'black': '#000000',
       'red': '#CD0000',
-      'upcoming': '#FFCC00',
+      'upcoming': '#F5BD1F',
       'done': '#006400',
 
      },

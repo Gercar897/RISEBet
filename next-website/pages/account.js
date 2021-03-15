@@ -173,8 +173,8 @@ export default function terms() {
                 <div class="text-sm text-gray-500">0 Estral E-Sports</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-upcoming text-white">
+                  Upcoming
                 </span>
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -206,8 +206,8 @@ export default function terms() {
                 <div class="text-sm text-gray-500">0 Vici Gaming</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-upcoming text-white">
+                  Upcoming
                 </span>
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -235,12 +235,12 @@ export default function terms() {
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-gray-900">0 Immortals</div>
-                <div class="text-sm text-gray-500">0 Cloud 9</div>
+                <div class="text-sm text-gray-900">0 Team Spirit</div>
+                <div class="text-sm text-gray-500">0 High Coast Esports</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-upcoming text-white">
+                  Upcoming
                 </span>
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
@@ -255,21 +255,87 @@ export default function terms() {
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="flex items-center">
                   <div class="flex-shrink-0 h-10 w-10">
-                    <img class="h-10 w-10 rounded" src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo-3.png" alt=""/>
+                    <img class="h-10 w-10 rounded" src="https://i.pinimg.com/originals/db/72/21/db7221672fc6b447f7af2b1f61b140ef.png" alt=""/>
                   </div>
                   <div class="ml-4">
                     <div class="text-sm font-medium text-gray-900">
-                      League Championship Series Spring
+                      ESL ANZ Championship
                     </div>
                     <div class="text-sm text-gray-500">
-                      Today March 14 GMT-7
+                     March 13 15:00 GMT-7
                     </div>
                   </div>
                 </div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-gray-900">0 Immortals</div>
-                <div class="text-sm text-gray-500">0 Cloud 9</div>
+                <div class="text-sm text-gray-900">14 Dire Wolves</div>
+                <div class="text-sm text-gray-500">7 Animal Squad</div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-done text-white">
+                  Finished
+                </span>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500 hover:text-third">
+                W1 Winner
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                <a class="text-black hover:text-black">BET</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded" src="https://i.pinimg.com/originals/db/72/21/db7221672fc6b447f7af2b1f61b140ef.png" alt=""/>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">
+                      Snow Sweet Snow
+                    </div>
+                    <div class="text-sm text-gray-500">
+                      Today March 14 22:30 GMT-6
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">0 Paradox</div>
+                <div class="text-sm text-gray-500">0 Bizarre</div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
+                  Live
+                </span>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                W1 1.23 W2 3.75
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                <a href="#" class="text-black hover:text-third">BET</a>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="flex items-center">
+                  <div class="flex-shrink-0 h-10 w-10">
+                    <img class="h-10 w-10 rounded" src="https://pngimg.com/uploads/starcraft/small/starcraft_PNG79.png" alt=""/>
+                  </div>
+                  <div class="ml-4">
+                    <div class="text-sm font-medium text-gray-900">
+                      ITax Event
+                    </div>
+                    <div class="text-sm text-gray-500">
+                      Today March 14 22:00 GMT-6
+                    </div>
+                  </div>
+                </div>
+              </td>
+              <td class="px-6 py-4 whitespace-nowrap">
+                <div class="text-sm text-gray-900">1 TY</div>
+                <div class="text-sm text-gray-500">0 DongRaeGu</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
                 <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
@@ -288,14 +354,14 @@ export default function terms() {
               <td class="px-6 py-4 whitespace-nowrap">
                 <div class="flex items-center">
                   <div class="flex-shrink-0 h-10 w-10">
-                    <img class="h-10 w-10 rounded" src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo-3.png" alt=""/>
+                    <img class="h-10 w-10 rounded" src="https://pngimg.com/uploads/starcraft/small/starcraft_PNG79.png" alt=""/>
                   </div>
                   <div class="ml-4">
                     <div class="text-sm font-medium text-gray-900">
-                      League Championship Series Spring
+                      Moscow Cybersport Series
                     </div>
                     <div class="text-sm text-gray-500">
-                      Today March 14 GMT-7
+                     March 16 17:00 GMT-6
                     </div>
                   </div>
                 </div>
@@ -305,74 +371,8 @@ export default function terms() {
                 <div class="text-sm text-gray-500">0 Cloud 9</div>
               </td>
               <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
-                </span>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                W1 3.50 W2 1.50
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                <a href="#" class="text-black hover:text-third">BET</a>
-              </td>
-            </tr>
-
-            <tr>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                  <div class="flex-shrink-0 h-10 w-10">
-                    <img class="h-10 w-10 rounded" src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo-3.png" alt=""/>
-                  </div>
-                  <div class="ml-4">
-                    <div class="text-sm font-medium text-gray-900">
-                      League Championship Series Spring
-                    </div>
-                    <div class="text-sm text-gray-500">
-                      Today March 14 GMT-7
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-gray-900">0 Immortals</div>
-                <div class="text-sm text-gray-500">0 Cloud 9</div>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
-                </span>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                W1 3.50 W2 1.50
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
-                <a href="#" class="text-black hover:text-third">BET</a>
-              </td>
-            </tr>
-
-            <tr>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <div class="flex items-center">
-                  <div class="flex-shrink-0 h-10 w-10">
-                    <img class="h-10 w-10 rounded" src="https://logodownload.org/wp-content/uploads/2014/09/lol-league-of-Legends-logo-3.png" alt=""/>
-                  </div>
-                  <div class="ml-4">
-                    <div class="text-sm font-medium text-gray-900">
-                      League Championship Series Spring
-                    </div>
-                    <div class="text-sm text-gray-500">
-                      Today March 14 GMT-7
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <div class="text-sm text-gray-900">0 Immortals</div>
-                <div class="text-sm text-gray-500">0 Cloud 9</div>
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap">
-                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-red text-white">
-                  Live
+                <span class="px-2 inline-flex text-sm leading-5 font-semibold rounded-full bg-texty text-white">
+                  Scheduled
                 </span>
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
